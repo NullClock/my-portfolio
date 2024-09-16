@@ -1,3 +1,2 @@
-# my-portfolio
-
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/NullClock/my-portfolio)
+# My portfolio
+This is my personal portfolio created and developed using StackBlitz. This was really easy to make lol.
