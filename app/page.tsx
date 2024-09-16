@@ -40,7 +40,7 @@ export default function Home() {
           </p>
           <a
             href="#my-projects"
-            className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mr-4"
+            className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mr-4 mb-4"
           >
             {lang.explore}
           </a>
