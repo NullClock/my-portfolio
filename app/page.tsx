@@ -9,24 +9,10 @@ import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   const [lang, setLang] = useState(en);
-  const [interCode, setInterCode] = useState("");
 
   const toggleLang = () => {
     setLang(lang === pt ? en : pt);
   };
-
-  const clearInterCode = () => {
-    setInterCode("");
-  };
-
-  setInterval(clearInterCode, 10000);
-
-  document.body.addEventListener("keypress", async (e) => {
-    await setInterCode(interCode + e.key);
-    if (interCode.includes("opensta")) {
-      window.location.href = "https://mathonline.vercel.app/"
-    }
-  });
 
   const changeLangBTN = (
     <button
